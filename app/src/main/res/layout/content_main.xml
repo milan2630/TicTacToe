@@ -1,0 +1,92 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width = "match_parent"
+    android:layout_height = "match_parent"
+    android:columnCount="3"
+    android:rowCount="3"
+    android:background="#FFA500">
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textSize="225px"
+        android:gravity="center"
+        android:text="Herro Der"
+        android:textColor="#FFF"/>
+    <TableRow
+        android:layout_height="300px"
+        android:layout_width= "1200px">
+        <ImageButton
+            android:id="@+id/button_1"
+            android:layout_height="300px"
+            android:layout_width= "300px"
+            android:background="#FFF"
+            android:layout_marginLeft="37.5px"/>
+        <ImageButton
+            android:id="@+id/button_2"
+            android:layout_height="300px"
+            android:layout_width= "300px"
+            android:background="#000"
+            android:layout_marginLeft="37.5px"/>
+        <ImageButton
+            android:id="@+id/button_3"
+            android:layout_height="300px"
+            android:layout_width= "300px"
+            android:background="#FFF"
+            android:layout_marginLeft="37.5px"/>
+    </TableRow>
+    <TableRow
+        android:layout_height="300px"
+        android:layout_width= "1200px"
+        android:layout_marginTop="37.5px">
+        <ImageButton
+            android:id="@+id/button_4"
+            android:layout_height="300px"
+            android:layout_width= "300px"
+            android:background="#000"
+            android:layout_marginLeft="37.5px"/>
+        <ImageButton
+            android:id="@+id/button_5"
+            android:layout_height="300px"
+            android:layout_width= "300px"
+            android:background="#FFF"
+            android:layout_marginLeft="37.5px"/>
+        <ImageButton
+            android:id="@+id/button_6"
+            android:layout_height="300px"
+            android:layout_width= "300px"
+            android:background="#000"
+            android:layout_marginLeft="37.5px"/>
+    </TableRow>
+    <TableRow
+        android:layout_height="300px"
+        android:layout_width= "1200px"
+        android:layout_marginTop="37.5px">
+        <ImageButton
+            android:id="@+id/button_7"
+            android:layout_height="300px"
+            android:layout_width= "300px"
+            android:background="#FFF"
+            android:layout_marginLeft="37.5px"/>
+        <ImageButton
+            android:id="@+id/button_8"
+            android:layout_height="300px"
+            android:layout_width= "300px"
+            android:background="#000"
+            android:layout_marginLeft="37.5px"/>
+        <ImageButton
+            android:id="@+id/button_9"
+            android:layout_height="300px"
+            android:layout_width= "300px"
+            android:background="#FFF"
+            android:layout_marginLeft="37.5px"/>
+    </TableRow>
+    <LinearLayout android:weightSum="1">
+        <Button
+            android:id = "@+id/new_game"
+            android:layout_width="995px"
+            android:layout_height="300px"
+            android:layout_gravity="bottom"
+
+            android:layout_marginLeft="30px"/>
+    </LinearLayout>
+</TableLayout>
